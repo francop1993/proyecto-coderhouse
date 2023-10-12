@@ -165,9 +165,21 @@ header nav ul li a{
 
 /*   PESTAÑA COLECCION  */
 
+
+
 .vivos-contenedor{
-    margin-left: 40px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lanzamientos-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .vivos-contenedor-grid{
@@ -179,8 +191,13 @@ header nav ul li a{
     "vid3 vid4"
     "vid5 vid6"
     "vid7 vid8"
-    "vid9 vid10"
+    "vid9 vid10";
 }
+
+.vivos-contenedor-grid div{
+    margin: 10px;
+}
+
 
 .vid1{
     grid-area: vid1;
@@ -219,15 +236,19 @@ header nav ul li a{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 350px 350px 350px;
     grid-template-areas: 
-    "alb1  alb2  alb3 alb4"
-    "alb5  alb6 alb7 alb8"
-    "alb9  alb10  alb11 alb12"
+    "alb1  alb2   alb3   alb4"
+    "alb5  alb6   alb7   alb8"
+    "alb9  alb10  alb11  alb12"
 }
 
 
+.lanzamientos-contenedor-grid div{
+    margin: 15px;
+}
+
 .lanzamientos-contenedor-grid div a img{
-    width: 310px;
-    height: 310px;
+    width: 250px;
+    height: 250px;
 }
 
 .alb1{
@@ -278,7 +299,7 @@ header nav ul li a{
 
 }
 
-.pestaña-coleccion section h1{
+.pestaña-coleccion  section h1{
     display: flex;
     justify-content: center;
     color: rgb(252, 151, 0);
@@ -287,7 +308,7 @@ header nav ul li a{
     
 }
 
-.pestaña-coleccion section h2{
+.pestaña-coleccion  section h2{
     display: flex;
     justify-content: center;
     color: rgb(252, 151, 0);
@@ -307,7 +328,7 @@ header nav ul li a{
 
 .main-nosotros h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     color: rgb(252, 151, 0);
     font-size: 30px;
     font-weight: 100;
@@ -339,8 +360,8 @@ header nav ul li a{
 
 .archivo-pestaña{
     width: 100%;
-    height:305vh;
 }
+
 .archivo-pestaña  h1 {
     text-align: center;
     padding-top: 50px;
@@ -349,16 +370,7 @@ header nav ul li a{
     font-weight: 150;
 }
 
-.todos-los-tiempos h2{
-    text-align: center;
-    padding-top: 30px;
-    color: rgb(252, 151, 0);
-    font-size: 30px;
-    font-weight: 100;
-}
-
-
-.veintitres h2{
+.seleccion-uno div h2{
     text-align: center;
     font-size: 30px;
     font-weight: 100;
@@ -366,8 +378,7 @@ header nav ul li a{
 
 }
 
-
-.veintidos h2{
+.decadas div h2{
     text-align: center;
     font-size: 30px;
     font-weight: 100;
@@ -375,58 +386,158 @@ header nav ul li a{
 
 }
 
-
-.veintiuno h2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 100;
-    color: rgb(252, 151, 0);
+.archivo-pestaña section div h2{
+    margin-top: 5px;
 
 }
 
 
-.veinte h2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 100;
-    color: rgb(252, 151, 0);
+.archivo-pestaña section div div{
+display: flex;
+justify-content: center;
 }
 
+.seleccion-uno{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas: 
+    "s1  s1  s3"
+    "s1  s1  s4"
+    "s2  s2  s5"
+    ;
+}
 
-.archivo-pestaña section div a img{
+.todos-los-tiempos {
+    grid-area: s1;
+}
+
+.veintitres{
+    grid-area: s2;
+}
+
+.veintidos{
+    grid-area: s3;
+}
+
+.veintiuno{
+    grid-area: s4;
+}
+
+.veinte{
+    grid-area: s5;
+}
+
+.todos-los-tiempos div a img{
+    width: 650px;
+    height: 650px;
+    
+}
+
+.veintitres div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veintidos div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veintiuno div a img{
+    width: 310px;
+    height: 310px;
+}
+
+.veinte div a img{
     width: 310px;
     height: 310px;
 }
 
 
-.archivo-pestaña section div{
-display: flex;
-justify-content: center;
+
+.decadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    grid-template-areas: 
+    "sd1  sd2  sd3"
+    "sd4  sd5  sd6"
+    ;
 }
+.dosmildiez{
+    grid-area: sd1;
+}
+
+.dosmil{
+    grid-area: sd2;
+}
+
+.noventas{
+    grid-area: sd3;
+}
+
+.ochentas{
+    grid-area: sd4;
+}
+
+.setentas{
+    grid-area: sd5;
+}
+
+.sesentas{
+    grid-area: sd6;
+}
+
+.decadas{
+margin-top: 200px;}
+
+.decadas div{
+    margin-top: 5px;
+}
+
+.decadas div div a img {
+    width: 310px;
+    height: 310px;
+}
+
 
 
 /*   PESTAÑA CONTACTO  */
 
 .contacto-pestaña{
-    width: 70%;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
+    "div0c"
     "div1c"
     "div2c"
     "div2c";
 }
+
+.div0c{
+    color: rgb(252, 151, 0);
+    font-size: 30px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
 .div1c{
     grid-area: div1c;
-    margin-top: 100px;
-    margin-left: 320px;
+    margin-left:  400px;
+    margin-right: 400px;
 }
 
 .div2c{
     grid-area: div2c;
-    margin-left: 320px;
+    margin-left:  200px;
+    margin-right: 200px;
 }
 
 
@@ -625,9 +736,100 @@ footer div img{
 
 
 /*!----------------------------------------------MEDIAQUERYS----------------------------------------------------------------*/
+@media screen and (max-width:1250px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+.vivos-contenedor div div iframe {
+    width: 360px;
+    height: 215px;
+}
+}
+
+@media screen and (max-width:1050px){
+
+    .carousel-caption {
+        margin-left: 300px;
+    }
+
+    }
+
+
+@media screen and (max-width:1000px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+
+    .seleccion-uno{
+        grid-template-rows: 250px 250px 250px;
+
+    }
+        .todos-los-tiempos div a img{
+            width: 400px;
+            height: 400px;
+            
+        }
+        
+        .veintitres div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintidos div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintiuno div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veinte div a img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1  alb2   alb3"
+        "alb4  alb5   alb6"
+        "alb7  alb8   alb9"
+        "alb10 alb11  alb12"
+
+    }
+    .div1c {margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.decadas div div a img {
+    width: 270px;
+    height: 270px;
+}
+
 
 @media screen and (max-width:950px){
+
+    .vivos-contenedor div div iframe {
+        width: 330px;
+        height: 185px;
+    }
     
+    .div1c {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
     .año img{
         width:300px;
         height:300px;
@@ -647,32 +849,74 @@ footer div img{
     .archivo-pestaña {
         height: 350vh;
     }
+    .decadas div div a img {
+        width: 200px;
+        height: 200px;
+    }
+    .decadas{
+        margin-top: 100px;}
 
+        
+.archivo-pestaña{
+height: 250vh;
+}
     }
 
+    @media screen and (max-width:760px){
+        .main-nosotros p{
+            font-size: 14px;
+        }
+    }
+
+
 @media screen and (max-width:740px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 180px;
+        height: 180px;
+    }
+    .vivos-contenedor div div iframe {
+        width: 300px;
+        height: 185px;
+    }
+
 
     .mapa div a img{
         width: 540px;
         height: 350px;        
     }
 
-    .div1c{
-        margin-top: 100px;
-        margin-left: 200px;
-    }
-    
     .div2c{
-        margin-left: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
+    .decadas div h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .decadas{
+        grid-template-rows: 220px 220px;
+    }
+    .decadas{
+        margin-top: 80px;}
 }
 
 @media screen and (max-width:665px){
     
+    .vivos-contenedor div div iframe {
+        width: 250px;
+        height: 155px;
+    }
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 150px;
+        height: 150px;
+    }
+
 .coleccion{
     background-image: none;
     height: 60vh;
-    
+}
 .carousel-item img{
     height: 250px;
 }
@@ -700,12 +944,6 @@ footer div img{
             height: 120px;
         }    
         
-    }
-}
-
-
-@media screen and (max-width:665px){
-
     .parrafo{
         width: 100%;
         height: 30vh;
@@ -714,40 +952,123 @@ footer div img{
         align-items: center;
     }
 
-.parrafo p{
-    font-size: 13px;
-    font-weight: 150;
-}
+        .parrafo p{
+        font-size: 13px;
+        font-weight: 150;
+        }
+        
+        .seleccion-contenedor-grids{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 330px 330px;
+            grid-template-areas: 
+            "div1 div2"
+            "div3 div3";
+        }
+        
+        .seleccion div h3{
+            font-size: 20px;
+        }
+        
+        .año img{
+            width:150px;
+            height:150px;
+            
+        }
+        
+        .mes img{
+            width: 150px;
+            height: 150px;
+        }
+        .semana img{
+            width: 150px;
+            height: 150px;
+        }    
+        .decadas div div a img {
+            width: 170px;
+            height: 170px;
+        }
+            .todos-los-tiempos div a img{
+                width: 300px;
+                height: 300px;
+                
+            }
+            
+            .veintitres div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintidos div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintiuno div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veinte div a img{
+                width: 150px;
+                height: 150px;
+            }
+
+            .decadas{
+                margin-top: 40px;}
+
+                .archivo-pestaña{
+                    height: 200vh;
+                    }
+        }
+
+@media screen and (max-width:620px){
     
-    .seleccion-contenedor-grids{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 330px 330px;
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px;
         grid-template-areas: 
-        "div1 div2"
-        "div3 div3";
+        "alb1  alb2"
+        "alb3  alb4"
+        "alb5  alb6"
+        "alb7 alb8"
+        "alb9 alb10"
+        "alb11 alb12"
+
+
     }
-    
-    .seleccion div h3{
+}
+@media screen and (max-width:600px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px  150px 150px 150px 150px 150px;
+        grid-template-areas: 
+        "vid1"
+        "vid2"
+        "vid3"
+        "vid4"
+        "vid5"
+        "vid6"
+        "vid7"
+        "vid8"
+        "vid9"
+        "vid10"
+        ;
+    }
+    .main-nosotros div h2{
         font-size: 20px;
     }
+    
+    .main-nosotros p {
+        font-size: 13px;
+    }
 
-    .año img{
-        width:150px;
-        height:150px;
-        
-    }
-    
-    .mes img{
-        width: 150px;
-        height: 150px;
-    }
-    .semana img{
-        width: 150px;
-        height: 150px;
-    }    
-    
+    .div1c {margin-left: 100px;
+    margin-right: 100px;
 }
-
+.decadas div h2{
+    font-size: 20px;
+}
+}
 @media screen and (max-width:565px){
 
     .mapa{
@@ -782,15 +1103,36 @@ footer div img{
         height: 120px;
     }    
 
-    .div1c{
-        margin-top: 100px;
-        margin-left: 150px;
+    .main-nosotros p {
+        font-size: 12px;
     }
-    
-    .div2c{
-        margin-left: 150px;
+
+    .decadas{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 220px 220px 220px;
+        grid-template-areas: 
+        "sd1  sd2"
+        "sd3  sd4"
+        "sd5  sd6"
+        ;
     }
-    
+    .archivo-pestaña{
+        height: 250vh;
+        }
+
+        .seleccion-uno{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 420px 250px 250px;
+            grid-template-areas: 
+            "s1  s1"
+            "s2  s3 "
+            "s4  s5 "
+            ;
+        }
+
+        .archivo-pestaña{
+            height: 280vh;
+        }
 }
 
 
@@ -800,5 +1142,15 @@ footer div img{
         width: 340px;
         height: 200px;        
     }
+    .main-nosotros p {
+        font-size: 12px;
+    }
     
+    .main-nosotros p {
+        font-size: 10px;
+    }
+    .decadas div div a img {
+        width: 140px;
+        height: 140px;
+    }
 }
