@@ -318,6 +318,8 @@ header nav ul li a{
     
 }
 
+
+
 /*   PESTAÑA NOSOTROS  */
 
 .main-nosotros{
@@ -797,17 +799,6 @@ footer div img{
         }
     }
     
-    
-    .lanzamientos-contenedor-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 220px 220px 220px 220px;
-        grid-template-areas: 
-        "alb1  alb2   alb3"
-        "alb4  alb5   alb6"
-        "alb7  alb8   alb9"
-        "alb10 alb11  alb12"
-
-    }
     .div1c {margin-left: 300px;
     margin-right: 300px;
     
@@ -819,6 +810,17 @@ footer div img{
 
 
 @media screen and (max-width:950px){
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1  alb2   alb3"
+        "alb4  alb5   alb6"
+        "alb7  alb8   alb9"
+        "alb10 alb11  alb12"
+
+    }
 
     .vivos-contenedor div div iframe {
         width: 330px;
@@ -914,7 +916,6 @@ height: 250vh;
     }
 
 .coleccion{
-    background-image: none;
     height: 60vh;
 }
 .carousel-item img{
