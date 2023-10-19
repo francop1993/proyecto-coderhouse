@@ -342,20 +342,40 @@ header nav ul li a{
     width: 100%;
     height: 40vh;
     text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.08);
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.04);
 }
 
 
 .main-nosotros div h2{
     color: rgb(252, 151, 0);
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 100;
 }
-
-.main-nosotros div {
+.contacto-links a {
     text-decoration: none;
+    color: white;
 }
+.contacto-links div{
+    display: inline-block;
+}
+.contacto-links div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-links div a{
+    text-decoration: none;
+    color: white;
+    margin:10px;
+
+}
+.contacto-links div a img{
+    height: 30px;
+    width: 30px;
+}
+
 
 
 /*   PESTAÑA ARCHIVO  */
@@ -715,11 +735,8 @@ footer h2{
     font-size: 30px;
 }
 
-.descubri{
-    color: rgb(255, 239, 146);
-    background-color: rgba(0, 0, 0, 0.507);
-    font-weight: 150;
-    display: inline-block;
+footer h3 {
+    font-size: 23px;
 }
 
 footer div{
