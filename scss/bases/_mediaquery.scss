@@ -1,0 +1,473 @@
+@media screen and (max-width:1250px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+.vivos-contenedor div div iframe {
+    width: 360px;
+    height: 215px;
+}
+}
+
+@media screen and (max-width:1050px){
+
+    .carousel-caption {
+        margin-left: 300px;
+    }
+
+    }
+
+
+@media screen and (max-width:1000px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+
+    .seleccion-uno{
+        grid-template-rows: 250px 250px 250px;
+
+    }
+        .todos-los-tiempos div a img{
+            width: 400px;
+            height: 400px;
+            
+        }
+        
+        .veintitres div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintidos div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veintiuno div a img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .veinte div a img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    .div1c {margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.decadas div div a img {
+    width: 270px;
+    height: 270px;
+}
+
+
+@media screen and (max-width:950px){
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1  alb2   alb3"
+        "alb4  alb5   alb6"
+        "alb7  alb8   alb9"
+        "alb10 alb11  alb12"
+
+    }
+
+    .vivos-contenedor div div iframe {
+        width: 330px;
+        height: 185px;
+    }
+    
+    .div1c {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .año img{
+        width:300px;
+        height:300px;
+        
+    }
+    
+    .mes img{
+        width: 170px;
+        height: 170px;
+    }
+    
+    
+    .semana img{
+        width: 170px;
+        height: 170px;
+    }
+    .archivo-pestaña {
+        height: 350vh;
+    }
+    .decadas div div a img {
+        width: 200px;
+        height: 200px;
+    }
+    .decadas{
+        margin-top: 100px;}
+
+        
+.archivo-pestaña{
+height: 250vh;
+}
+    }
+
+    @media screen and (max-width:760px){
+        .main-nosotros p{
+            font-size: 14px;
+        }
+        footer div {
+            margin: 20px
+        }
+        footer div h2{
+            font-size: 25px;        
+    
+        }
+        
+        footer div h3 {
+            font-size: 13px;
+        }
+        
+        footer div a img{ 
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+
+@media screen and (max-width:740px){
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 180px;
+        height: 180px;
+    }
+    .vivos-contenedor div div iframe {
+        width: 300px;
+        height: 185px;
+    }
+
+
+    .mapa div a img{
+        width: 540px;
+        height: 350px;        
+    }
+
+    .div2c{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .decadas div h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .decadas{
+        grid-template-rows: 220px 220px;
+    }
+    .decadas{
+        margin-top: 80px;}
+}
+
+@media screen and (max-width:665px){
+    
+    .vivos-contenedor div div iframe {
+        width: 250px;
+        height: 155px;
+    }
+
+    .lanzamientos-contenedor-grid div a img{
+        width: 150px;
+        height: 150px;
+    }
+
+.coleccion{
+    height: 60vh;
+}
+.carousel-item img{
+    height: 250px;
+}
+        .seleccion-contenedor-grids{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 330px 330px;
+            grid-template-areas: 
+            "div1  div2  div3"
+            "div1  div2 div3";
+        }
+
+
+        .año img{
+            width:120px;
+            height:120px;
+            
+        }
+        
+        .mes img{
+            width: 120px;
+            height: 120px;
+        }
+        .semana img{
+            width: 120px;
+            height: 120px;
+        }    
+        
+    .parrafo{
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(255, 255, 255, 0.499);
+        display: flex;
+        align-items: center;
+    }
+
+        .parrafo p{
+        font-size: 13px;
+        font-weight: 150;
+        }
+        
+        .seleccion-contenedor-grids{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 330px 330px;
+            grid-template-areas: 
+            "div1 div2"
+            "div3 div3";
+        }
+        
+        .seleccion div h3{
+            font-size: 20px;
+        }
+        
+        .año img{
+            width:150px;
+            height:150px;
+            
+        }
+        
+        .mes img{
+            width: 150px;
+            height: 150px;
+        }
+        .semana img{
+            width: 150px;
+            height: 150px;
+        }    
+        .decadas div div a img {
+            width: 170px;
+            height: 170px;
+        }
+            .todos-los-tiempos div a img{
+                width: 300px;
+                height: 300px;
+                
+            }
+            
+            .veintitres div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintidos div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veintiuno div a img{
+                width: 150px;
+                height: 150px;
+            }
+            
+            .veinte div a img{
+                width: 150px;
+                height: 150px;
+            }
+
+            .decadas{
+                margin-top: 40px;}
+
+                .archivo-pestaña{
+                    height: 200vh;
+                    }
+        }
+
+@media screen and (max-width:620px){
+    
+    .lanzamientos-contenedor-grid{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px;
+        grid-template-areas: 
+        "alb1  alb2"
+        "alb3  alb4"
+        "alb5  alb6"
+        "alb7 alb8"
+        "alb9 alb10"
+        "alb11 alb12"
+
+
+    }
+}
+@media screen and (max-width:600px){
+    .vivos-contenedor-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px  150px 150px 150px 150px 150px;
+        grid-template-areas: 
+        "vid1"
+        "vid2"
+        "vid3"
+        "vid4"
+        "vid5"
+        "vid6"
+        "vid7"
+        "vid8"
+        "vid9"
+        "vid10"
+        ;
+    }
+    .main-nosotros div h2{
+        font-size: 20px;
+    }
+    
+    .main-nosotros p {
+        font-size: 13px;
+    }
+
+    .div1c {margin-left: 100px;
+    margin-right: 100px;
+}
+.decadas div h2{
+    font-size: 20px;
+}
+}
+@media screen and (max-width:565px){
+
+    .mapa{
+        height: 50vh;
+    }
+    .mapa div a img{
+        width: 440px;
+        height: 280px;        
+    }
+    
+    .seleccion-contenedor-grids{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 330px 330px;
+        grid-template-areas: 
+        "div1 div2"
+        "div3 div3";
+    }
+
+
+    .año img{
+        width:120px;
+        height:120px;
+        
+    }
+    
+    .mes img{
+        width: 120px;
+        height: 120px;
+    }
+    .semana img{
+        width: 120px;
+        height: 120px;
+    }    
+
+    .main-nosotros p {
+        font-size: 12px;
+    }
+
+    .decadas{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 220px 220px 220px;
+        grid-template-areas: 
+        "sd1  sd2"
+        "sd3  sd4"
+        "sd5  sd6"
+        ;
+    }
+    .archivo-pestaña{
+        height: 250vh;
+        }
+
+        .seleccion-uno{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 420px 250px 250px;
+            grid-template-areas: 
+            "s1  s1"
+            "s2  s3 "
+            "s4  s5 "
+            ;
+        }
+
+        .archivo-pestaña{
+            height: 280vh;
+        }
+        footer div {
+            margin: 5px
+        }
+}
+
+@media screen and (max-width:510px) {
+
+    footer div h2{
+        font-size: 20px;        
+
+    }
+    
+    footer div h3 {
+        font-size: 10px;
+    }
+    
+    footer div a img{ 
+        width: 15px;
+        height: 15px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    .mapa div a img{
+        width: 340px;
+        height: 200px;        
+    }
+    .main-nosotros p {
+        font-size: 12px;
+    }
+    
+    .main-nosotros p {
+        font-size: 10px;
+    }
+    .decadas div div a img {
+        width: 140px;
+        height: 140px;
+    }
+}
+@media screen and (max-width:360px) {
+    footer div h2{
+        font-size: 17px;        
+
+    }
+    
+    footer div h3 {
+        font-size: 8px;
+    }
+    
+    footer div a img{ 
+        width: 13px;
+        height: 13px;
+    }
+
+
+}
