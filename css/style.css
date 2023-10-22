@@ -18,7 +18,6 @@ body{
 
 
 
-
 /*!----------------------------------------------HEADER----------------------------------------------------------------*/
 
 .navbar-brand{
@@ -922,29 +921,30 @@ height: 250vh;
 .carousel-item img{
     height: 250px;
 }
-        .seleccion-contenedor-grids{
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 330px 330px;
-            grid-template-areas: 
-            "div1  div2  div3"
-            "div1  div2 div3";
-        }
+
+.seleccion-contenedor-grids{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 330px 330px;
+    grid-template-areas: 
+    "div1 div2"
+    "div3 div3";
+}
 
 
-        .año img{
-            width:120px;
-            height:120px;
-            
-        }
-        
-        .mes img{
-            width: 120px;
-            height: 120px;
-        }
-        .semana img{
-            width: 120px;
-            height: 120px;
-        }    
+.año img{
+    width: 170px;
+    height:170px;
+    
+}
+
+.mes img{
+    width: 170px;
+    height: 170px;
+}
+.semana img{
+    width: 170px;
+    height: 170px;
+}       
         
     .parrafo{
         width: 100%;
@@ -959,32 +959,7 @@ height: 250vh;
         font-weight: 150;
         }
         
-        .seleccion-contenedor-grids{
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 330px 330px;
-            grid-template-areas: 
-            "div1 div2"
-            "div3 div3";
-        }
         
-        .seleccion div h3{
-            font-size: 20px;
-        }
-        
-        .año img{
-            width:150px;
-            height:150px;
-            
-        }
-        
-        .mes img{
-            width: 150px;
-            height: 150px;
-        }
-        .semana img{
-            width: 150px;
-            height: 150px;
-        }    
         .decadas div div a img {
             width: 170px;
             height: 170px;
@@ -1034,11 +1009,28 @@ height: 250vh;
         "alb5  alb6"
         "alb7 alb8"
         "alb9 alb10"
-        "alb11 alb12"
+        "alb11 alb12";
+        }
 
-
+        .seleccion div h3{
+            font-size: 20px;
+        }
+        
+        .año img{
+            width:150px;
+            height:150px;
+            
+        }
+        
+        .mes img{
+            width: 150px;
+            height: 150px;
+        }
+        .semana img{
+            width: 150px;
+            height: 150px;
+        }    
     }
-}
 @media screen and (max-width:600px){
     .vivos-contenedor-grid{
         grid-template-columns: 1fr;

@@ -1,10 +1,13 @@
 @media screen and (max-width:1250px){
 
+
     .lanzamientos-contenedor-grid div a img{
         width: 200px;
         height: 200px;
     }
 }
+
+
 
 @media screen and (max-width:1200px){
 .vivos-contenedor div div iframe {
@@ -15,14 +18,26 @@
 
 @media screen and (max-width:1050px){
 
-    .carousel-caption {
-        margin-left: 300px;
+    .coleccion{
+        div{
+            div{
+                div{
+                    div{
+                        margin-left: 300px;
+                        }
+                    }
+            }
+        }
     }
-
-    }
+}
 
 
 @media screen and (max-width:1000px){
+
+    .seleccion{
+        height: 120vh;
+    }
+
     .vivos-contenedor-grid{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 220px 220px 220px 220px 220px;
@@ -57,15 +72,18 @@
             width: 200px;
             height: 200px;
         }
-    }
     
-    .div1c {margin-left: 300px;
-    margin-right: 300px;
+
+.contacto-pestaña{
+    div.div1c {margin-left: 300px;
+        margin-right: 300px;
+}
     
 }
 .decadas div div a img {
     width: 270px;
     height: 270px;
+}
 }
 
 
@@ -86,28 +104,12 @@
         width: 330px;
         height: 185px;
     }
-    
-    .div1c {
-        margin-left: 200px;
-        margin-right: 200px;
+    .contacto-pestaña{
+        div.div1c {margin-left: 200px;
+            margin-right: 200px;
     }
+}
 
-    .año img{
-        width:300px;
-        height:300px;
-        
-    }
-    
-    .mes img{
-        width: 170px;
-        height: 170px;
-    }
-    
-    
-    .semana img{
-        width: 170px;
-        height: 170px;
-    }
     .archivo-pestaña {
         height: 350vh;
     }
@@ -119,15 +121,17 @@
         margin-top: 100px;}
 
         
-.archivo-pestaña{
-height: 250vh;
-}
+    .archivo-pestaña{
+        height: 250vh;
+    }
     }
 
     @media screen and (max-width:760px){
-        .main-nosotros p{
+        .main-nosotros{
+        p{
             font-size: 14px;
         }
+    }
         footer div {
             margin: 20px
         }
@@ -158,16 +162,23 @@ height: 250vh;
         height: 185px;
     }
 
-
-    .mapa div a img{
-        width: 540px;
-        height: 350px;        
+    .mapa{
+        div{
+            a{
+                img{
+                    width: 540px;
+                    height: 350px; 
+                }
+            }
+        }
     }
 
-    .div2c{
+    .contacto-pestaña{
+        div.div2c {
         margin-left: 50px;
         margin-right: 50px;
     }
+}
     .decadas div h2{
         text-align: center;
         font-size: 25px;
@@ -204,62 +215,53 @@ height: 250vh;
             "div1  div2  div3"
             "div1  div2 div3";
         }
-
-
-        .año img{
-            width:120px;
-            height:120px;
-            
-        }
-        
-        .mes img{
-            width: 120px;
-            height: 120px;
-        }
-        .semana img{
-            width: 120px;
-            height: 120px;
-        }    
-        
-    .parrafo{
-        width: 100%;
-        height: 30vh;
-        background-color: rgba(255, 255, 255, 0.499);
-        display: flex;
-        align-items: center;
-    }
-
-        .parrafo p{
-        font-size: 13px;
-        font-weight: 150;
-        }
-        
+.seleccion{
+    .seleccion-items{
         .seleccion-contenedor-grids{
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 330px 330px;
             grid-template-areas: 
             "div1 div2"
             "div3 div3";
+            div.año{
+                a{
+                    img{
+                        width:170px;
+                        height:170px;
+                    }
+                }
+            }
+            div.mes{
+                a{
+                    img{
+                        width:170px;
+                        height:170px; 
+                    }
+                }
+            }
+            div.semana{
+                a{
+                    img{
+                        width:170px;
+                        height:170px; 
+                    }
+                }
+            }
         }
-        
-        .seleccion div h3{
-            font-size: 20px;
-        }
-        
-        .año img{
-            width:150px;
-            height:150px;
-            
-        }
-        
-        .mes img{
-            width: 150px;
-            height: 150px;
-        }
-        .semana img{
-            width: 150px;
-            height: 150px;
-        }    
+    }
+}
+.parrafo{
+    width: 100%;
+        height: 30vh;
+        background-color: rgba(255, 255, 255, 0.499);
+        display: flex;
+        align-items: center;
+    p{
+        font-size: 15px;
+        font-weight: 150;
+    }
+}
+
         .decadas div div a img {
             width: 170px;
             height: 170px;
@@ -310,8 +312,6 @@ height: 250vh;
         "alb7 alb8"
         "alb9 alb10"
         "alb11 alb12"
-
-
     }
 }
 @media screen and (max-width:600px){
@@ -331,57 +331,43 @@ height: 250vh;
         "vid10"
         ;
     }
-    .main-nosotros div h2{
-        font-size: 20px;
+
+
+    .main-nosotros{
+        p{
+            font-size: 13px;
+        }
     }
     
-    .main-nosotros p {
-        font-size: 13px;
+    .contacto-pestaña{
+        div.div1c {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
     }
 
-    .div1c {margin-left: 100px;
-    margin-right: 100px;
-}
-.decadas div h2{
-    font-size: 20px;
+    .decadas div h2{
+        font-size: 20px;
 }
 }
 @media screen and (max-width:565px){
 
     .mapa{
         height: 50vh;
-    }
-    .mapa div a img{
-        width: 440px;
-        height: 280px;        
-    }
-    
-    .seleccion-contenedor-grids{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 330px 330px;
-        grid-template-areas: 
-        "div1 div2"
-        "div3 div3";
-    }
-
-
-    .año img{
-        width:120px;
-        height:120px;
-        
+        div{
+            a{
+                img{
+                    width: 440px;
+                    height: 280px; 
+                }
+            }
+        }
     }
     
-    .mes img{
-        width: 120px;
-        height: 120px;
-    }
-    .semana img{
-        width: 120px;
-        height: 120px;
-    }    
-
-    .main-nosotros p {
-        font-size: 12px;
+    .main-nosotros{
+        p{
+            font-size: 12px;
+        }
     }
 
     .decadas{
@@ -438,16 +424,62 @@ height: 250vh;
 
 @media screen and (max-width:450px) {
 
-    .mapa div a img{
-        width: 340px;
-        height: 200px;        
+    .seleccion{
+        height:110vh;
+        .seleccion-items{
+            .seleccion-contenedor-grids{
+                div.año{
+                    h3{
+                        font-size: 15px;
+                    }
+                    a{
+                        img{
+                            width: 125px;
+                            height: 125px;
+                        }
+                    }
+                }
+                div.mes{
+                    h3{
+                        font-size: 15px;
+                    }
+                    a{
+                        img{
+                            width: 125px;
+                            height: 125px;
+                        }
+                    }
+                }
+                div.semana{
+                    h3{
+                        font-size: 15px;
+                    }
+                    a{
+                        img{
+                            width: 125px;
+                            height: 125px;
+                        }
+                    }
+                }
+            }
+        }
     }
-    .main-nosotros p {
-        font-size: 12px;
+
+    .mapa{
+        div{
+            a{
+                img{
+                    width: 340px;
+                    height: 220px; 
+                }
+            }
+        }
     }
-    
-    .main-nosotros p {
-        font-size: 10px;
+
+    .main-nosotros{
+        p{
+            font-size: 10px;
+        }
     }
     .decadas div div a img {
         width: 140px;
@@ -468,6 +500,4 @@ height: 250vh;
         width: 13px;
         height: 13px;
     }
-
-
 }

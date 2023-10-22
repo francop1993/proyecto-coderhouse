@@ -14,6 +14,10 @@ body {
   font-family: 'Electrolize', sans-serif; }
 
 /*---------------------HEADER---------------------*/
+nav .container-fluid button {
+  background-color: #ffe100;
+  color: black; }
+
 .navbar-brand {
   font-family: 'Nabla', cursive;
   font-size: 40px;
@@ -29,12 +33,12 @@ body {
   color: white; }
 
 .boton {
-  border: 2px solid black;
-  background-color: white; }
+  border: 2px solid #ffb300;
+  background-color: black; }
 
 .boton:hover {
   color: white;
-  background-color: black; }
+  background-color: #ffae00; }
 
 /*---------------------INDEX---------------------*/
 .carousel-item img {
@@ -605,10 +609,12 @@ footer {
     height: 215px; } }
 
 @media screen and (max-width: 1050px) {
-  .carousel-caption {
+  .coleccion div div div div {
     margin-left: 300px; } }
 
 @media screen and (max-width: 1000px) {
+  .seleccion {
+    height: 120vh; }
   .vivos-contenedor-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 220px 220px 220px 220px 220px; }
@@ -628,15 +634,13 @@ footer {
     height: 200px; }
   .veinte div a img {
     width: 200px;
-    height: 200px; } }
-
-.div1c {
-  margin-left: 300px;
-  margin-right: 300px; }
-
-.decadas div div a img {
-  width: 270px;
-  height: 270px; }
+    height: 200px; }
+  .contacto-pestaña div.div1c {
+    margin-left: 300px;
+    margin-right: 300px; }
+  .decadas div div a img {
+    width: 270px;
+    height: 270px; } }
 
 @media screen and (max-width: 950px) {
   .lanzamientos-contenedor-grid {
@@ -646,18 +650,9 @@ footer {
   .vivos-contenedor div div iframe {
     width: 330px;
     height: 185px; }
-  .div1c {
+  .contacto-pestaña div.div1c {
     margin-left: 200px;
     margin-right: 200px; }
-  .año img {
-    width: 300px;
-    height: 300px; }
-  .mes img {
-    width: 170px;
-    height: 170px; }
-  .semana img {
-    width: 170px;
-    height: 170px; }
   .archivo-pestaña {
     height: 350vh; }
   .decadas div div a img {
@@ -691,7 +686,7 @@ footer {
   .mapa div a img {
     width: 540px;
     height: 350px; }
-  .div2c {
+  .contacto-pestaña div.div2c {
     margin-left: 50px;
     margin-right: 50px; }
   .decadas div h2 {
@@ -717,39 +712,28 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 330px 330px;
     grid-template-areas: "div1  div2  div3" "div1  div2 div3"; }
-  .año img {
-    width: 120px;
-    height: 120px; }
-  .mes img {
-    width: 120px;
-    height: 120px; }
-  .semana img {
-    width: 120px;
-    height: 120px; }
+  .seleccion .seleccion-items .seleccion-contenedor-grids {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 330px 330px;
+    grid-template-areas: "div1 div2" "div3 div3"; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.año a img {
+      width: 170px;
+      height: 170px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.mes a img {
+      width: 170px;
+      height: 170px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.semana a img {
+      width: 170px;
+      height: 170px; }
   .parrafo {
     width: 100%;
     height: 30vh;
     background-color: rgba(255, 255, 255, 0.499);
     display: flex;
     align-items: center; }
-  .parrafo p {
-    font-size: 13px;
-    font-weight: 150; }
-  .seleccion-contenedor-grids {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 330px 330px;
-    grid-template-areas: "div1 div2" "div3 div3"; }
-  .seleccion div h3 {
-    font-size: 20px; }
-  .año img {
-    width: 150px;
-    height: 150px; }
-  .mes img {
-    width: 150px;
-    height: 150px; }
-  .semana img {
-    width: 150px;
-    height: 150px; }
+    .parrafo p {
+      font-size: 15px;
+      font-weight: 150; }
   .decadas div div a img {
     width: 170px;
     height: 170px; }
@@ -784,11 +768,9 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 150px 150px 150px 150px 150px  150px 150px 150px 150px 150px;
     grid-template-areas: "vid1" "vid2" "vid3" "vid4" "vid5" "vid6" "vid7" "vid8" "vid9" "vid10"; }
-  .main-nosotros div h2 {
-    font-size: 20px; }
   .main-nosotros p {
     font-size: 13px; }
-  .div1c {
+  .contacto-pestaña div.div1c {
     margin-left: 100px;
     margin-right: 100px; }
   .decadas div h2 {
@@ -797,22 +779,9 @@ footer {
 @media screen and (max-width: 565px) {
   .mapa {
     height: 50vh; }
-  .mapa div a img {
-    width: 440px;
-    height: 280px; }
-  .seleccion-contenedor-grids {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 330px 330px;
-    grid-template-areas: "div1 div2" "div3 div3"; }
-  .año img {
-    width: 120px;
-    height: 120px; }
-  .mes img {
-    width: 120px;
-    height: 120px; }
-  .semana img {
-    width: 120px;
-    height: 120px; }
+    .mapa div a img {
+      width: 440px;
+      height: 280px; }
   .main-nosotros p {
     font-size: 12px; }
   .decadas {
@@ -840,11 +809,26 @@ footer {
     height: 15px; } }
 
 @media screen and (max-width: 450px) {
+  .seleccion {
+    height: 110vh; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.año h3 {
+      font-size: 15px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.año a img {
+      width: 125px;
+      height: 125px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.mes h3 {
+      font-size: 15px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.mes a img {
+      width: 125px;
+      height: 125px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.semana h3 {
+      font-size: 15px; }
+    .seleccion .seleccion-items .seleccion-contenedor-grids div.semana a img {
+      width: 125px;
+      height: 125px; }
   .mapa div a img {
     width: 340px;
-    height: 200px; }
-  .main-nosotros p {
-    font-size: 12px; }
+    height: 220px; }
   .main-nosotros p {
     font-size: 10px; }
   .decadas div div a img {
