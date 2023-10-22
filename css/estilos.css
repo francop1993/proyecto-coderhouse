@@ -620,7 +620,7 @@ footer {
     grid-template-rows: 220px 220px 220px 220px 220px; }
   .seleccion-uno {
     grid-template-rows: 250px 250px 250px; }
-  .todos-los-tiempos div a img {
+  section .todos-los-tiempos div a img {
     width: 400px;
     height: 400px; }
   .veintitres div a img {
