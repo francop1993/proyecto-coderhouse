@@ -1,12 +1,22 @@
 @media screen and (max-width:1250px){
 
 
-    .lanzamientos-contenedor-grid div a img{
-        width: 200px;
-        height: 200px;
+    .lanzamientos-contenedor-grid{
+        .alb1{
+            a{
+                Img{
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+        }
     }
-}
 
+.lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+    height: 200px;
+    width: 200px
+}
+}
 
 
 @media screen and (max-width:1200px){
@@ -301,6 +311,11 @@
         }
 
 @media screen and (max-width:620px){
+
+    section .main-nosotros .contacto-links h2{
+        font-size: 18px;
+        margin-top: 20px;
+    }
     
     .lanzamientos-contenedor-grid{
         grid-template-columns: 1fr 1fr ;
@@ -403,12 +418,12 @@
 
 @media screen and (max-width:510px) {
 
-    footer div h2{
+    footer h2{
         font-size: 20px;        
 
     }
     
-    footer div h3 {
+    footer h3 {
         font-size: 10px;
     }
     
