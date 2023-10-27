@@ -26,11 +26,9 @@
     }
     p{
         width: 50%;
-        font-size: nth($font-size, 6);
-        font-weight: 250;
-        color: $color-terciario;
-        text-shadow: -4px 3px 7px rgba(0, 0, 0, 1);
-        text-align: center;
+        @include texto (nth($font-size, 6), center, 250);
+        color: map-get($texto-parrafo,color-texto);
+        text-shadow: map-get($texto-parrafo, sombra-texto);
         @extend %display-flex2;
         padding-top: 30px;
     }
@@ -140,13 +138,10 @@
     display: flex;
     align-items: center;
     p{
-        color: $color-terciario;
         @extend %display-flex2;
-        font-size: nth($font-size, 6);
-        font-weight: 200;
-        text-align: center;
-        text-shadow: -4px 3px 7px rgba(0, 0, 0, 1);
-    }
+        @include texto (nth($font-size, 6), center, 200);
+        color: map-get($texto-parrafo,color-texto);
+        text-shadow: map-get($texto-parrafo, sombra-texto);    }
 }
 
 .playlist{
@@ -432,19 +427,17 @@ section{
         width: 100%;
         height: 100vh;
         h1{
-            text-align: center;
+            @include texto (nth($font-size, 3), center, 100);
             padding-top: 50px;
             color: $color-principal;
-            font-size: nth($font-size, 3);
-            font-weight: 100;
         }
         p{
             padding-top: 30px;
             width: 100%;
             height: 40vh;
             text-align: center;
-            color: $color-terciario;
-            text-shadow: -4px 3px 7px rgba(0, 0, 0, 1);
+            color: map-get($texto-parrafo,color-texto);
+            text-shadow: map-get($texto-parrafo, sombra-texto);
             background-color: rgba(255, 255, 255, 0.04);
         }
         .contacto-links{
@@ -486,11 +479,9 @@ section{
 .seleccion-pestaña{
     width: 100%;
     h1{
-        text-align: center;
+        @include texto (nth($font-size, 2), center, 150);
         padding-top: 50px;
         color: $color-principal;
-        font-size: nth($font-size, 2);
-        font-weight: 150;
     }
     .seleccion-uno{
         display: grid;
@@ -504,9 +495,7 @@ section{
         .todos-los-tiempos{
             grid-area: s1;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center,100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -523,9 +512,7 @@ section{
         .veintitres{
             grid-area: s2;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -542,9 +529,7 @@ section{
         .veintidos{
             grid-area: s3;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -561,9 +546,7 @@ section{
         .veintiuno{
             grid-area: s4;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -580,9 +563,7 @@ section{
         .veinte{
             grid-area: s5;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -610,9 +591,7 @@ section{
             margin-top: 5px;
             grid-area: sd1;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -630,9 +609,7 @@ section{
             margin-top: 5px;
             grid-area: sd2;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -649,9 +626,7 @@ section{
             margin-top: 5px;
             grid-area: sd3;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -668,9 +643,7 @@ section{
             margin-top: 5px;
             grid-area: sd4;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -687,9 +660,7 @@ section{
             margin-top: 5px;
             grid-area: sd5;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }
@@ -706,9 +677,7 @@ section{
             margin-top: 5px;
             grid-area: sd6;
             h2{
-                text-align: center;
-                font-size: nth($font-size, 3);
-                font-weight: 100;
+                @include texto (nth($font-size, 3), center, 100);
                 color: $color-principal;
                 margin-top: 5px;
             }

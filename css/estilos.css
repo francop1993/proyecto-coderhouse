@@ -81,10 +81,10 @@ nav .container-fluid button {
   .hero p {
     width: 50%;
     font-size: 20px;
+    text-align: center;
     font-weight: 250;
     color: white;
     text-shadow: -4px 3px 7px black;
-    text-align: center;
     padding-top: 30px; }
 
 .coleccion {
@@ -156,10 +156,10 @@ nav .container-fluid button {
   display: flex;
   align-items: center; }
   .parrafo p {
-    color: white;
     font-size: 20px;
-    font-weight: 200;
     text-align: center;
+    font-weight: 200;
+    color: white;
     text-shadow: -4px 3px 7px black; }
 
 .playlist {
@@ -341,11 +341,11 @@ section .main-nosotros {
   width: 100%;
   height: 100vh; }
   section .main-nosotros h1 {
-    text-align: center;
-    padding-top: 50px;
-    color: #fc9700;
     font-size: 30px;
-    font-weight: 100; }
+    text-align: center;
+    font-weight: 100;
+    padding-top: 50px;
+    color: #fc9700; }
   section .main-nosotros p {
     padding-top: 30px;
     width: 100%;
@@ -381,11 +381,11 @@ section .main-nosotros {
 .seleccion-pestaña {
   width: 100%; }
   .seleccion-pestaña h1 {
-    text-align: center;
-    padding-top: 50px;
-    color: #fc9700;
     font-size: 40px;
-    font-weight: 150; }
+    text-align: center;
+    font-weight: 150;
+    padding-top: 50px;
+    color: #fc9700; }
   .seleccion-pestaña .seleccion-uno {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -394,8 +394,8 @@ section .main-nosotros {
     .seleccion-pestaña .seleccion-uno .todos-los-tiempos {
       grid-area: s1; }
       .seleccion-pestaña .seleccion-uno .todos-los-tiempos h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -405,8 +405,8 @@ section .main-nosotros {
     .seleccion-pestaña .seleccion-uno .veintitres {
       grid-area: s2; }
       .seleccion-pestaña .seleccion-uno .veintitres h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -416,8 +416,8 @@ section .main-nosotros {
     .seleccion-pestaña .seleccion-uno .veintidos {
       grid-area: s3; }
       .seleccion-pestaña .seleccion-uno .veintidos h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -427,8 +427,8 @@ section .main-nosotros {
     .seleccion-pestaña .seleccion-uno .veintiuno {
       grid-area: s4; }
       .seleccion-pestaña .seleccion-uno .veintiuno h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -438,8 +438,8 @@ section .main-nosotros {
     .seleccion-pestaña .seleccion-uno .veinte {
       grid-area: s5; }
       .seleccion-pestaña .seleccion-uno .veinte h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -456,8 +456,8 @@ section .main-nosotros {
       margin-top: 5px;
       grid-area: sd1; }
       .seleccion-pestaña .decadas .dosmildiez h2 {
-        text-align: center;
         font-size: 30px;
+        text-align: center;
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
@@ -468,8 +468,8 @@ section .main-nosotros {
     margin-top: 5px;
     grid-area: sd2; }
     .seleccion-pestaña .dosmil h2 {
-      text-align: center;
       font-size: 30px;
+      text-align: center;
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
@@ -480,8 +480,8 @@ section .main-nosotros {
     margin-top: 5px;
     grid-area: sd3; }
     .seleccion-pestaña .noventas h2 {
-      text-align: center;
       font-size: 30px;
+      text-align: center;
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
@@ -492,8 +492,8 @@ section .main-nosotros {
     margin-top: 5px;
     grid-area: sd4; }
     .seleccion-pestaña .ochentas h2 {
-      text-align: center;
       font-size: 30px;
+      text-align: center;
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
@@ -504,8 +504,8 @@ section .main-nosotros {
     margin-top: 5px;
     grid-area: sd5; }
     .seleccion-pestaña .setentas h2 {
-      text-align: center;
       font-size: 30px;
+      text-align: center;
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
@@ -516,8 +516,8 @@ section .main-nosotros {
     margin-top: 5px;
     grid-area: sd6; }
     .seleccion-pestaña .sesentas h2 {
-      text-align: center;
       font-size: 30px;
+      text-align: center;
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
@@ -616,30 +616,11 @@ footer {
     height: 120vh; }
   .vivos-contenedor-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 220px 220px 220px 220px 220px; }
-  .seleccion-uno {
-    grid-template-rows: 250px 250px 250px; }
-  section .todos-los-tiempos div a img {
-    width: 400px;
-    height: 400px; }
-  .veintitres div a img {
-    width: 200px;
-    height: 200px; }
-  .veintidos div a img {
-    width: 200px;
-    height: 200px; }
-  .veintiuno div a img {
-    width: 200px;
-    height: 200px; }
-  .veinte div a img {
-    width: 200px;
-    height: 200px; }
-  .contacto-pestaña div.div1c {
-    margin-left: 300px;
-    margin-right: 300px; }
-  .decadas div div a img {
-    width: 270px;
-    height: 270px; } }
+    grid-template-rows: 220px 220px 220px 220px 220px; } }
+
+.contacto-pestaña div.div1c {
+  margin-left: 300px;
+  margin-right: 300px; }
 
 @media screen and (max-width: 950px) {
   .lanzamientos-contenedor-grid .alb1 a Img {
@@ -653,11 +634,6 @@ footer {
     margin-right: 200px; }
   .archivo-pestaña {
     height: 350vh; }
-  .decadas div div a img {
-    width: 200px;
-    height: 200px; }
-  .decadas {
-    margin-top: 100px; }
   .archivo-pestaña {
     height: 250vh; } }
 
@@ -692,14 +668,7 @@ footer {
     height: 350px; }
   .contacto-pestaña div.div2c {
     margin-left: 50px;
-    margin-right: 50px; }
-  .decadas div h2 {
-    text-align: center;
-    font-size: 23px; }
-  .decadas {
-    grid-template-rows: 220px 220px; }
-  .decadas {
-    margin-top: 80px; } }
+    margin-right: 50px; } }
 
 @media screen and (max-width: 665px) {
   .pestaña-coleccion .lanzamientos-contenedor h2 {
@@ -737,26 +706,6 @@ footer {
     .parrafo p {
       font-size: 15px;
       font-weight: 150; }
-  .decadas div div a img {
-    width: 170px;
-    height: 170px; }
-  .todos-los-tiempos div a img {
-    width: 300px;
-    height: 300px; }
-  .veintitres div a img {
-    width: 150px;
-    height: 150px; }
-  .veintidos div a img {
-    width: 150px;
-    height: 150px; }
-  .veintiuno div a img {
-    width: 150px;
-    height: 150px; }
-  .veinte div a img {
-    width: 150px;
-    height: 150px; }
-  .decadas {
-    margin-top: 40px; }
   .archivo-pestaña {
     height: 200vh; } }
 
@@ -770,9 +719,7 @@ footer {
     font-size: 13px; }
   .contacto-pestaña div.div1c {
     margin-left: 100px;
-    margin-right: 100px; }
-  .decadas div h2 {
-    font-size: 20px; } }
+    margin-right: 100px; } }
 
 @media screen and (max-width: 565px) {
   .pestaña-coleccion .vivos-contenedor .vivos-contenedor-grid {
@@ -828,16 +775,8 @@ footer {
       height: 280px; }
   .main-nosotros p {
     font-size: 12px; }
-  .decadas {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 220px 220px 220px;
-    grid-template-areas: "sd1  sd2" "sd3  sd4" "sd5  sd6"; }
   .archivo-pestaña {
     height: 250vh; }
-  .seleccion-uno {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 420px 250px 250px;
-    grid-template-areas: "s1  s1" "s2  s3 " "s4  s5 "; }
   .archivo-pestaña {
     height: 280vh; }
   footer div {

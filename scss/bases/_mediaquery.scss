@@ -114,36 +114,39 @@
         grid-template-rows: 220px 220px 220px 220px 220px;
     }
 
-    .seleccion-uno{
-        grid-template-rows: 250px 250px 250px;
+    // .seleccion-uno{
+    //     grid-template-rows: 250px 250px 250px;
 
     }
-        section .todos-los-tiempos div a img{
-            width: 400px;
-            height: 400px;
-            
-        }
-        
-        .veintitres div a img{
-            width: 200px;
-            height: 200px;
-        }
-        
-        .veintidos div a img{
-            width: 200px;
-            height: 200px;
-        }
-        
-        .veintiuno div a img{
-            width: 200px;
-            height: 200px;
-        }
-        
-        .veinte div a img{
-            width: 200px;
-            height: 200px;
-        }
+
+
+
+// .seleccion-pestaña .seleccion-uno .todos-los-tiempos div a img {
+//     width: 400px;
+//     height: 400px;
+// }
     
+
+    // .veintitres div a img{
+    //     width: 200px;
+    //     height: 200px;
+    // }
+    
+    // .veintidos div a img{
+    //     width: 200px;
+    //     height: 200px;
+    // }
+    
+    // .veintiuno div a img{
+    //     width: 200px;
+    //     height: 200px;
+    // }
+    
+    // .veinte div a img{
+    //     width: 200px;
+    //     height: 200px;
+    // }
+
 
 .contacto-pestaña{
     div.div1c {margin-left: 300px;
@@ -151,11 +154,7 @@
 }
     
 }
-.decadas div div a img {
-    width: 270px;
-    height: 270px;
-}
-}
+
 
 
 @media screen and (max-width:950px){
@@ -185,12 +184,12 @@
     .archivo-pestaña {
         height: 350vh;
     }
-    .decadas div div a img {
-        width: 200px;
-        height: 200px;
-    }
-    .decadas{
-        margin-top: 100px;}
+    // .decadas div div a img {
+    //     width: 200px;
+    //     height: 200px;
+    // }
+    // .decadas{
+    //     margin-top: 100px;}
 
         
     .archivo-pestaña{
@@ -264,15 +263,15 @@
         margin-right: 50px;
     }
 }
-    .decadas div h2{
-        text-align: center;
-        font-size: nth($font-size, 5);
-    }
-    .decadas{
-        grid-template-rows: 220px 220px;
-    }
-    .decadas{
-        margin-top: 80px;}
+    // .decadas div h2{
+    //     text-align: center;
+    //     font-size: nth($font-size, 5);
+    // }
+    // .decadas{
+    //     grid-template-rows: 220px 220px;
+    // }
+    // .decadas{
+    //     margin-top: 80px;}
 }
 
 @media screen and (max-width:665px){
@@ -347,38 +346,38 @@
     }
 }
 
-        .decadas div div a img {
-            width: 170px;
-            height: 170px;
-        }
-            .todos-los-tiempos div a img{
-                width: 300px;
-                height: 300px;
+        // .decadas div div a img {
+        //     width: 170px;
+        //     height: 170px;
+        // }
+        //     .todos-los-tiempos div a img{
+        //         width: 300px;
+        //         height: 300px;
                 
-            }
+        //     }
             
-            .veintitres div a img{
-                width: 150px;
-                height: 150px;
-            }
+        //     .veintitres div a img{
+        //         width: 150px;
+        //         height: 150px;
+        //     }
             
-            .veintidos div a img{
-                width: 150px;
-                height: 150px;
-            }
+        //     .veintidos div a img{
+        //         width: 150px;
+        //         height: 150px;
+        //     }
             
-            .veintiuno div a img{
-                width: 150px;
-                height: 150px;
-            }
+        //     .veintiuno div a img{
+        //         width: 150px;
+        //         height: 150px;
+        //     }
             
-            .veinte div a img{
-                width: 150px;
-                height: 150px;
-            }
+        //     .veinte div a img{
+        //         width: 150px;
+        //         height: 150px;
+        //     }
 
-            .decadas{
-                margin-top: 40px;}
+        //     .decadas{
+        //         margin-top: 40px;}
 
                 .archivo-pestaña{
                     height: 200vh;
@@ -407,9 +406,9 @@
         }
     }
 
-    .decadas div h2{
-        font-size: nth($font-size, 6);
-}
+//     .decadas div h2{
+//         font-size: nth($font-size, 6);
+// }
 }
 @media screen and (max-width:565px){
     .pestaña-coleccion .vivos-contenedor .vivos-contenedor-grid{
@@ -504,28 +503,28 @@
         }
     }
 
-    .decadas{
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 220px 220px 220px;
-        grid-template-areas: 
-        "sd1  sd2"
-        "sd3  sd4"
-        "sd5  sd6"
-        ;
-    }
+    // .decadas{
+    //     grid-template-columns: 1fr 1fr ;
+    //     grid-template-rows: 220px 220px 220px;
+    //     grid-template-areas: 
+    //     "sd1  sd2"
+    //     "sd3  sd4"
+    //     "sd5  sd6"
+    //     ;
+    // }
     .archivo-pestaña{
         height: 250vh;
         }
 
-        .seleccion-uno{
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 420px 250px 250px;
-            grid-template-areas: 
-            "s1  s1"
-            "s2  s3 "
-            "s4  s5 "
-            ;
-        }
+        // .seleccion-uno{
+        //     grid-template-columns: 1fr 1fr;
+        //     grid-template-rows: 420px 250px 250px;
+        //     grid-template-areas: 
+        //     "s1  s1"
+        //     "s2  s3 "
+        //     "s4  s5 "
+        //     ;
+        // }
 
         .archivo-pestaña{
             height: 280vh;
