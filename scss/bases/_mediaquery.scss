@@ -1,7 +1,7 @@
 @media screen and (max-width:1250px){
 
 
-    .lanzamientos-contenedor-grid{
+.lanzamientos-contenedor-grid{
         .alb1{
             a{
                 Img{
@@ -11,10 +11,71 @@
             }
         }
     }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1 alb2 alb3 "
+        "alb4 alb5 alb6 "
+        "alb7 alb8 alb9"
+        "alb10 alb11 alb12";
+    }
 
-.lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
     height: 200px;
-    width: 200px
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb2 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb3 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb4 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb5 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb6 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb7 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb8 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb9 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb10 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb11 a img{
+    height: 200px;
+    width: 200px;
+}
+.pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb12 a img{
+    height: 200px;
+    width: 200px;
 }
 }
 
@@ -100,15 +161,16 @@
 @media screen and (max-width:950px){
     
     .lanzamientos-contenedor-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 220px 220px 220px 220px;
-        grid-template-areas: 
-        "alb1  alb2   alb3"
-        "alb4  alb5   alb6"
-        "alb7  alb8   alb9"
-        "alb10 alb11  alb12"
-
+        .alb1{
+            a{
+                Img{
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+        }
     }
+
 
     .vivos-contenedor div div iframe {
         width: 330px;
@@ -135,23 +197,36 @@
         height: 250vh;
     }
     }
-
+    @media screen and (max-width:850px){
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1 alb2 "
+        "alb3 alb4 "
+        "alb5 alb6 "
+        "alb7 alb8 "
+        "alb9 alb10"
+        "alb11 alb12 "
+        ;
+    }
+    }
     @media screen and (max-width:760px){
         .main-nosotros{
         p{
-            font-size: 14px;
+            font-size: nth($font-size, 9);
         }
     }
         footer div {
             margin: 20px
         }
         footer div h2{
-            font-size: 25px;        
+            font-size: nth($font-size, 5);        
     
         }
         
         footer div h3 {
-            font-size: 13px;
+            font-size: nth($font-size, 10);
         }
         
         footer div a img{ 
@@ -191,7 +266,7 @@
 }
     .decadas div h2{
         text-align: center;
-        font-size: 25px;
+        font-size: nth($font-size, 5);
     }
     .decadas{
         grid-template-rows: 220px 220px;
@@ -201,16 +276,16 @@
 }
 
 @media screen and (max-width:665px){
+.pestaña-coleccion .lanzamientos-contenedor h2{
+        font-size: nth($font-size, 6);
+    }
     
     .vivos-contenedor div div iframe {
         width: 250px;
         height: 155px;
     }
 
-    .lanzamientos-contenedor-grid div a img{
-        width: 150px;
-        height: 150px;
-    }
+
 
 .coleccion{
     height: 60vh;
@@ -267,7 +342,7 @@
         display: flex;
         align-items: center;
     p{
-        font-size: 15px;
+        font-size: nth($font-size, 8);
         font-weight: 150;
     }
 }
@@ -313,24 +388,31 @@
 @media screen and (max-width:620px){
 
     section .main-nosotros .contacto-links h2{
-        font-size: 18px;
+        font-size: nth($font-size, 9);
         margin-top: 20px;
-    }
-    
-    .lanzamientos-contenedor-grid{
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 160px 160px 160px 160px 160px 160px;
-        grid-template-areas: 
-        "alb1  alb2"
-        "alb3  alb4"
-        "alb5  alb6"
-        "alb7 alb8"
-        "alb9 alb10"
-        "alb11 alb12"
     }
 }
 @media screen and (max-width:600px){
-    .vivos-contenedor-grid{
+
+    .main-nosotros{
+        p{
+            font-size: nth($font-size, 10);
+        }
+    }
+    
+    .contacto-pestaña{
+        div.div1c {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+
+    .decadas div h2{
+        font-size: nth($font-size, 6);
+}
+}
+@media screen and (max-width:565px){
+    .pestaña-coleccion .vivos-contenedor .vivos-contenedor-grid{
         grid-template-columns: 1fr;
         grid-template-rows: 150px 150px 150px 150px 150px  150px 150px 150px 150px 150px;
         grid-template-areas: 
@@ -346,26 +428,63 @@
         "vid10"
         ;
     }
-
-
-    .main-nosotros{
-        p{
-            font-size: 13px;
-        }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 180px;
+        width: 180px;
     }
-    
-    .contacto-pestaña{
-        div.div1c {
-            margin-left: 100px;
-            margin-right: 100px;
-        }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb2 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb3 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb4 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb5 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb6 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb7 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb8 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb9 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb10 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb11 a img{
+        height: 180px;
+        width: 180px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb12 a img{
+        height: 180px;
+        width: 180px;
     }
 
-    .decadas div h2{
-        font-size: 20px;
-}
-}
-@media screen and (max-width:565px){
 
     .mapa{
         height: 50vh;
@@ -381,7 +500,7 @@
     
     .main-nosotros{
         p{
-            font-size: 12px;
+            font-size: nth($font-size, 11);
         }
     }
 
@@ -417,14 +536,71 @@
 }
 
 @media screen and (max-width:510px) {
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb2 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb3 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb4 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb5 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb1 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb6 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb7 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb8 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb9 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb10 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb11 a img{
+        height: 140px;
+        width: 140px;
+    }
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid .alb12 a img{
+        height: 140px;
+        width: 140px;
+    }
+
 
     footer h2{
-        font-size: 20px;        
+        font-size: nth($font-size, 6);        
 
     }
     
     footer h3 {
-        font-size: 10px;
+        font-size: nth($font-size, 12);
     }
     
     footer div a img{ 
@@ -439,13 +615,35 @@
 
 @media screen and (max-width:450px) {
 
+    .pestaña-coleccion .lanzamientos-contenedor{
+        justify-content: center;
+    }
+
+    .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px;
+        grid-template-areas: 
+        "alb1"
+        "alb2"
+        "alb3"
+        "alb4"
+        "alb5"
+        "alb6"
+        "alb7"
+        "alb8"
+        "alb9"
+        "alb10"
+        "alb11"
+        "alb12"
+        ;
+    }
     .seleccion{
         height:110vh;
         .seleccion-items{
             .seleccion-contenedor-grids{
                 div.año{
                     h3{
-                        font-size: 15px;
+                        font-size: nth($font-size, 8);
                     }
                     a{
                         img{
@@ -456,7 +654,7 @@
                 }
                 div.mes{
                     h3{
-                        font-size: 15px;
+                        font-size: nth($font-size, 8);
                     }
                     a{
                         img{
@@ -467,7 +665,7 @@
                 }
                 div.semana{
                     h3{
-                        font-size: 15px;
+                        font-size: nth($font-size, 8);
                     }
                     a{
                         img{
@@ -493,7 +691,7 @@
 
     .main-nosotros{
         p{
-            font-size: 10px;
+            font-size: nth($font-size, 12);
         }
     }
     .decadas div div a img {
@@ -508,7 +706,7 @@
     }
     
     footer div h3 {
-        font-size: 8px;
+        font-size: nth($font-size, 13);
     }
     
     footer div a img{ 
