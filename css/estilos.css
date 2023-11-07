@@ -449,7 +449,7 @@ section .main-nosotros {
   .seleccion-pestaña .decadas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 350px 350px;
+    grid-template-rows: 360px 360px;
     grid-template-areas: "sd1  sd2  sd3" "sd4  sd5  sd6";
     margin-top: 200px; }
     .seleccion-pestaña .decadas .dosmildiez {
@@ -616,11 +616,45 @@ footer {
     height: 120vh; }
   .vivos-contenedor-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 220px 220px 220px 220px 220px; } }
-
-.contacto-pestaña div.div1c {
-  margin-left: 300px;
-  margin-right: 300px; }
+    grid-template-rows: 220px 220px 220px 220px 220px; }
+  .seleccion-pestaña .seleccion-uno {
+    grid-template-rows: 250px 250px 250px; }
+  .seleccion-pestaña .seleccion-uno .todos-los-tiempos div a img {
+    width: 400px;
+    height: 400px; }
+  .seleccion-pestaña .seleccion-uno .veintitres div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .seleccion-uno .veintidos div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .seleccion-uno .veintiuno div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .seleccion-uno .veinte div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .dosmildiez div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .dosmil div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .noventas div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .ochentas div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .setentas div a img {
+    width: 200px;
+    height: 200px; }
+  .seleccion-pestaña .decadas .sesentas div a img {
+    width: 200px;
+    height: 200px; }
+  .contacto-pestaña div.div1c {
+    margin-left: 300px;
+    margin-right: 300px; } }
 
 @media screen and (max-width: 950px) {
   .lanzamientos-contenedor-grid .alb1 a Img {
@@ -634,6 +668,8 @@ footer {
     margin-right: 200px; }
   .archivo-pestaña {
     height: 350vh; }
+  .seleccion-pestaña .decadas {
+    margin-top: 100px; }
   .archivo-pestaña {
     height: 250vh; } }
 
@@ -644,6 +680,8 @@ footer {
     grid-template-areas: "alb1 alb2 " "alb3 alb4 " "alb5 alb6 " "alb7 alb8 " "alb9 alb10" "alb11 alb12 "; } }
 
 @media screen and (max-width: 760px) {
+  .pestaña-coleccion .vivos-contenedor h1 {
+    font-size: 35px; }
   .main-nosotros p {
     font-size: 14px; }
   footer div {
@@ -668,7 +706,30 @@ footer {
     height: 350px; }
   .contacto-pestaña div.div2c {
     margin-left: 50px;
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .seleccion-pestaña h1 {
+    font-size: 35px; }
+  .seleccion-pestaña .seleccion-uno .todos-los-tiempos h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .seleccion-uno .veinte h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .seleccion-uno .veintiuno h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .seleccion-uno .veintidos h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .seleccion-uno .veintitres h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .decadas .dosmildiez h2 {
+    text-align: center;
+    font-size: 23px; }
+  .seleccion-pestaña .decadas div h2 {
+    text-align: center;
+    font-size: 23px; } }
 
 @media screen and (max-width: 665px) {
   .pestaña-coleccion .lanzamientos-contenedor h2 {
@@ -706,6 +767,43 @@ footer {
     .parrafo p {
       font-size: 15px;
       font-weight: 150; }
+  .seleccion-pestaña .seleccion-uno {
+    grid-template-rows: 220px 220px 220px; }
+  .seleccion-pestaña .seleccion-uno .todos-los-tiempos div a img {
+    width: 330px;
+    height: 330px; }
+  .seleccion-pestaña .seleccion-uno .veintitres div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .seleccion-uno .veintidos div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .seleccion-uno .veintiuno div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .seleccion-uno .veinte div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .dosmildiez div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .dosmil div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .noventas div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .ochentas div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .setentas div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas .sesentas div a img {
+    width: 150px;
+    height: 150px; }
+  .seleccion-pestaña .decadas {
+    margin-top: 40px; }
   .archivo-pestaña {
     height: 200vh; } }
 
@@ -775,8 +873,16 @@ footer {
       height: 280px; }
   .main-nosotros p {
     font-size: 12px; }
+  .seleccion-pestaña .decadas {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 220px 220px 220px;
+    grid-template-areas: "sd1  sd2" "sd3  sd4" "sd5  sd6"; }
   .archivo-pestaña {
     height: 250vh; }
+  .seleccion-pestaña .seleccion-uno {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 250px 250px;
+    grid-template-areas: "s1  s1" "s2  s3 " "s4  s5 "; }
   .archivo-pestaña {
     height: 280vh; }
   footer div {
@@ -831,9 +937,17 @@ footer {
     font-size: 10px; }
   footer div a img {
     width: 15px;
-    height: 15px; } }
+    height: 15px; }
+  .pestaña-coleccion .vivos-contenedor h1 {
+    font-size: 30px; }
+  .seleccion-pestaña h1 {
+    font-size: 30px; } }
 
 @media screen and (max-width: 450px) {
+  .hero h1 {
+    font-size: 70px; }
+  .hero p {
+    font-size: 15px; }
   .pestaña-coleccion .lanzamientos-contenedor {
     justify-content: center; }
   .pestaña-coleccion .lanzamientos-contenedor .lanzamientos-contenedor-grid {
