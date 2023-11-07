@@ -461,9 +461,13 @@ section .main-nosotros {
         font-weight: 100;
         color: #fc9700;
         margin-top: 5px; }
-      .seleccion-pestaña .decadas .dosmildiez div a img {
-        width: 310px;
-        height: 310px; }
+      .seleccion-pestaña .decadas .dosmildiez div {
+        display: flex;
+        justify-content: center; }
+        .seleccion-pestaña .decadas .dosmildiez div a img {
+          text-align: center;
+          width: 310px;
+          height: 310px; }
   .seleccion-pestaña .dosmil {
     margin-top: 5px;
     grid-area: sd2; }
@@ -473,9 +477,12 @@ section .main-nosotros {
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
-    .seleccion-pestaña .dosmil div a img {
-      width: 310px;
-      height: 310px; }
+    .seleccion-pestaña .dosmil div {
+      display: flex;
+      justify-content: center; }
+      .seleccion-pestaña .dosmil div a img {
+        width: 310px;
+        height: 310px; }
   .seleccion-pestaña .noventas {
     margin-top: 5px;
     grid-area: sd3; }
@@ -485,9 +492,12 @@ section .main-nosotros {
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
-    .seleccion-pestaña .noventas div a img {
-      width: 310px;
-      height: 310px; }
+    .seleccion-pestaña .noventas div {
+      display: flex;
+      justify-content: center; }
+      .seleccion-pestaña .noventas div a img {
+        width: 310px;
+        height: 310px; }
   .seleccion-pestaña .ochentas {
     margin-top: 5px;
     grid-area: sd4; }
@@ -497,9 +507,12 @@ section .main-nosotros {
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
-    .seleccion-pestaña .ochentas div a img {
-      width: 310px;
-      height: 310px; }
+    .seleccion-pestaña .ochentas div {
+      display: flex;
+      justify-content: center; }
+      .seleccion-pestaña .ochentas div a img {
+        width: 310px;
+        height: 310px; }
   .seleccion-pestaña .setentas {
     margin-top: 5px;
     grid-area: sd5; }
@@ -509,9 +522,12 @@ section .main-nosotros {
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
-    .seleccion-pestaña .setentas div a img {
-      width: 310px;
-      height: 310px; }
+    .seleccion-pestaña .setentas div {
+      display: flex;
+      justify-content: center; }
+      .seleccion-pestaña .setentas div a img {
+        width: 310px;
+        height: 310px; }
   .seleccion-pestaña .sesentas {
     margin-top: 5px;
     grid-area: sd6; }
@@ -521,9 +537,12 @@ section .main-nosotros {
       font-weight: 100;
       color: #fc9700;
       margin-top: 5px; }
-    .seleccion-pestaña .sesentas div a img {
-      width: 310px;
-      height: 310px; }
+    .seleccion-pestaña .sesentas div {
+      display: flex;
+      justify-content: center; }
+      .seleccion-pestaña .sesentas div a img {
+        width: 310px;
+        height: 310px; }
 
 footer {
   background-color: rgba(255, 255, 255, 0.504);
